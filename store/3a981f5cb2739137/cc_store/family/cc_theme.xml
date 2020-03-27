@@ -634,7 +634,7 @@
         <selection type="mustache" state_id="default"/>
         <selection type="nose" state_id="default"/>
     </facial>
-    <bodyshape id="adam" name="Adam" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="male">
+    <bodyshape id="adam" name="Adam" default_action="stand2" default_motion="walk" action_thumb="stand2" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="male">
         <default_char>
   <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
   <color r="ccEyeLib">0xFFCE95</color>
