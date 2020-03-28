@@ -7206,9 +7206,15 @@
   <component type="nose" component_id="013" theme_id="family" x="-3" y="-3" xscale="0.78" yscale="0.78" offset="0" rotation="-3" />
   <component type="upper_body" component_id="rocky_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
         </default_char>
-        <action id="stand" name="Stand" loop="Y" totalframe="1" enable="Y" is_motion="N">
+        <action id="stand" name="Stand 1" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
+        <action id="stand2" name="Stand 2" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="lie_down"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="default"/>
         </action>
