@@ -530,6 +530,19 @@
         <selection type="mustache" state_id="default"/>
         <selection type="nose" state_id="default"/>
     </facial>
+    <facial id="head_naughty" name="Naughty" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="yawn"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
     <facial id="head_yawn" name="Yawn" enable="Y">
         <selection type="beard" state_id="default"/>
         <selection type="ear" state_id="default"/>
