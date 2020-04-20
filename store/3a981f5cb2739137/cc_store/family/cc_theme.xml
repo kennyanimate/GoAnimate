@@ -969,6 +969,18 @@
             <selection type="skeleton" state_id="talk_on_phone"/>
             <selection type="upper_body" state_id="talk_on_phone"/>
         </action>
+        <action id="idle 1" name="Idle 1" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="talk_on_phone"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
+        <action id="idle 2" name="Idle 2" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="talk_on_phone"/>
+            <selection type="upper_body" state_id="lie_down"/>
+        </action>
         <action id="talk_phone2" name="Sit - Talk on phone" loop="Y" totalframe="115" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_talk_a"/>
             <selection type="lower_body" state_id="sit"/>
