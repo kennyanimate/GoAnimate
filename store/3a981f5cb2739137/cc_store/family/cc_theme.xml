@@ -999,7 +999,7 @@
             <selection type="skeleton" state_id="talk_on_phone"/>
             <selection type="upper_body" state_id="crossed_arms"/>
         </action>
-        <action id="rocking" name="Rocking back & forth" loop="Y" totalframe="115" enable="Y" is_motion="N">
+        <action id="rocking" name="Rocking back and forth" loop="Y" totalframe="115" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="sit"/>
             <selection type="skeleton" state_id="talk_on_phone"/>
