@@ -969,8 +969,8 @@
             <selection type="skeleton" state_id="excited"/>
             <selection type="upper_body" state_id="default"/>
         </action>
-        <action id="pushing_position" name="Pushing position" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
-            <selection type="facial" facial_id="head_sad"/>
+        <action id="pushing_position" name="Pushing position" loop="Y" totalframe="60" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="fearful"/>
