@@ -961,7 +961,7 @@
             <selection type="facial" facial_id="head_asleep"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="sad"/>
-            <selection type="upper_body" state_id="point_at"/>
+            <selection type="upper_body" state_id="talk_on_phone"/>
         </action>
         <action id="talk_phone" name="Talk on phone 1" loop="Y" totalframe="115" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_talk_a"/>
@@ -1010,6 +1010,12 @@
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="point_at"/>
             <selection type="upper_body" state_id="sad"/>
+        </action>
+        <action id="idk" name="Idk" loop="Y" totalframe="23" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_happy"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="dance"/>
+            <selection type="upper_body" state_id="default"/>
         </action>
         <action id="talk_phone2" name="Sit - Talk on phone" loop="Y" totalframe="115" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_talk_a"/>
