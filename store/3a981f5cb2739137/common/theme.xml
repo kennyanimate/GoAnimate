@@ -16405,11 +16405,10 @@
   <prop id="ncc_htree.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11296" money="0" sharing="0"/>
   
   
-  <prop id="couchtest.swf" name="couchtest" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000000" money="0" sharing="0"/>
-  <prop id="lilycrying1.swf" name="Lily Anderson" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000001" money="0" sharing="0">
-    <state id="lilycrying1.swf" name="kneel" enable="Y" default="Y"/>
-    <state id="lilycrying2.swf" name="stand" enable="Y"/>
-  </prop>
+  <prop id="couchtest.swf" name="Couch Test" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000000" money="0" sharing="0"/>
+  <prop id="lilycrying1.swf" name="Lily Anderson Crying 1" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000001" money="0" sharing="0"/>
+  <prop id="lilycrying2.swf" name="Lily Anderson Crying 2" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000002" money="0" sharing="0"/>
+
   
   <prop id="ncc_rbuilding01.swf" name="Building" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11297" money="0" sharing="0"/>
   <prop id="ncc_rcarpet.swf" name="Carpet" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11298" money="0" sharing="0"/>
