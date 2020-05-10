@@ -16406,7 +16406,10 @@
   
   
   <prop id="couchtest.swf" name="couchtest" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000000" money="0" sharing="0"/>
-
+  <prop id="lilycrying1.swf" name="Lily Anderson" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000001" money="0" sharing="0">
+    <state id="lilycrying1.swf" name="kneel" enable="Y" default="Y"/>
+    <state id="lilycrying2.swf" name="stand" enable="Y"/>
+  </prop>
   
   <prop id="ncc_rbuilding01.swf" name="Building" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11297" money="0" sharing="0"/>
   <prop id="ncc_rcarpet.swf" name="Carpet" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11298" money="0" sharing="0"/>
