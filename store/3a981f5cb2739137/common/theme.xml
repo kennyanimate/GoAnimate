@@ -16403,6 +16403,11 @@
     <state id="msp_ncc_hsign_ncc_hsign03.swf" name="no trespassing" enable="Y"/>
   </prop>
   <prop id="ncc_htree.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11296" money="0" sharing="0"/>
+  
+  
+  <prop id="couchtest.swf" name="couchtest" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000000" money="0" sharing="0"/>
+
+  
   <prop id="ncc_rbuilding01.swf" name="Building" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11297" money="0" sharing="0"/>
   <prop id="ncc_rcarpet.swf" name="Carpet" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11298" money="0" sharing="0"/>
   <prop id="ncc_rplant.swf" name="Plants" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11299" money="0" sharing="0"/>
