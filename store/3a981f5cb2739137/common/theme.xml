@@ -16410,11 +16410,15 @@
   <prop id="lilycrying2.swf" name="Lily Anderson Crying 2" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000002" money="0" sharing="0"/>
   <prop id="gotest334.swf" name="GoTest334" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000003" money="0" sharing="0"/>
   <prop id="mysterymachine.swf" name="Mystery Machine" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000004" money="0" sharing="0"/>
-  <prop id="scoobydoo.swf" name="Scooby Doo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000005" money="0" sharing="0"/>
-  <prop id="scoobydooscared.swf" name="Scooby Doo - Scared" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000006" money="0" sharing="0"/>
-  <prop id="gilbert.swf" name="Gilbert Anderson" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000007" money="0" sharing="0"/>
-  <prop id="mysterymachineinteriorback.swf" name="Mystery Machine Interior - Back" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000008" money="0" sharing="0"/>
-  <prop id="mysterymachineinteriorfront.swf" name="Mystery Machine Interior - Front" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000009" money="0" sharing="0"/>
+  <prop id="scoobydoo" name="Scooby Doo" holdable="0" placeable="1" wearable="0" facing="left" thumb="scoobydoo.swf" enable="Y" is_premium="N" aid="1000005" money="0" sharing="0">
+    <state id="scoobydoo.swf" name="standing" enable="Y" default="Y"/>
+    <state id="scoobydoositting.swf" name="sitting" enable="Y"/>
+    <state id="scoobydooscared.swf" name="scared" enable="Y"/>
+  </prop>
+  <prop id="gilbert.swf" name="Gilbert Anderson" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000006" money="0" sharing="0"/>
+  <prop id="mysterymachineinteriorback.swf" name="Mystery Machine Interior - Back" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000007" money="0" sharing="0"/>
+  <prop id="mysterymachineinteriorfront.swf" name="Mystery Machine Interior - Front" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000008" money="0" sharing="0"/>
+  <prop id="chuckecheese.swf" name="Chuck E. Cheese" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000009" money="0" sharing="0"/>
 
   
   <prop id="ncc_rbuilding01.swf" name="Building" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11297" money="0" sharing="0"/>
