@@ -9468,7 +9468,7 @@
         <state id="asleep" filename="closed_eye.swf"/>
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
-        <state id="happy" filename="happy.swf"/>
+        <state id="happy" filename="default.swf"/>
         <state id="sad" filename="sad.swf"/>
         <state id="schemeing" filename="angry.swf"/>
         <state id="shock" filename="shock.swf"/>
