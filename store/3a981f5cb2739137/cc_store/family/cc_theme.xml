@@ -9476,6 +9476,58 @@
         <state id="thinking" filename="confused.swf"/>
         <state id="yawn" filename="desperate.swf"/>
     </component>
+    <component type="eye" id="1002" path="1002" name="1002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="angry" filename="angry.swf"/>
+        <state id="asleep" filename="closed_eye.swf"/>
+        <state id="cry" filename="cry.swf"/>
+        <state id="default" filename="default.swf"/>
+        <state id="happy" filename="default.swf"/>
+        <state id="sad" filename="sad.swf"/>
+        <state id="schemeing" filename="angry.swf"/>
+        <state id="shock" filename="shock.swf"/>
+        <state id="sick" filename="sick.swf"/>
+        <state id="thinking" filename="confused.swf"/>
+        <state id="yawn" filename="desperate.swf"/>
+    </component>
+    <component type="eye" id="2001" path="2001" name="2001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="angry" filename="angry.swf"/>
+        <state id="asleep" filename="closed_eye.swf"/>
+        <state id="cry" filename="cry.swf"/>
+        <state id="default" filename="default.swf"/>
+        <state id="happy" filename="default.swf"/>
+        <state id="sad" filename="sad.swf"/>
+        <state id="schemeing" filename="angry.swf"/>
+        <state id="shock" filename="shock.swf"/>
+        <state id="sick" filename="sick.swf"/>
+        <state id="thinking" filename="confused.swf"/>
+        <state id="yawn" filename="desperate.swf"/>
+    </component>
+    <component type="eye" id="2002" path="2002" name="2002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="angry" filename="angry.swf"/>
+        <state id="asleep" filename="closed_eye.swf"/>
+        <state id="cry" filename="cry.swf"/>
+        <state id="default" filename="default.swf"/>
+        <state id="happy" filename="default.swf"/>
+        <state id="sad" filename="sad.swf"/>
+        <state id="schemeing" filename="angry.swf"/>
+        <state id="shock" filename="shock.swf"/>
+        <state id="sick" filename="sick.swf"/>
+        <state id="thinking" filename="confused.swf"/>
+        <state id="yawn" filename="desperate.swf"/>
+    </component>
+    <component type="eye" id="2003" path="2003" name="2003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="angry" filename="angry.swf"/>
+        <state id="asleep" filename="closed_eye.swf"/>
+        <state id="cry" filename="cry.swf"/>
+        <state id="default" filename="default.swf"/>
+        <state id="happy" filename="default.swf"/>
+        <state id="sad" filename="sad.swf"/>
+        <state id="schemeing" filename="angry.swf"/>
+        <state id="shock" filename="shock.swf"/>
+        <state id="sick" filename="sick.swf"/>
+        <state id="thinking" filename="confused.swf"/>
+        <state id="yawn" filename="desperate.swf"/>
+    </component>
     <component type="eye" id="201" path="201" name="201" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
         <state id="asleep" filename="asleep.swf"/>
