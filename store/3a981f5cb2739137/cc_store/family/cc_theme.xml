@@ -387,6 +387,19 @@
         <selection type="mustache" state_id="default"/>
         <selection type="nose" state_id="default"/>
     </facial>
+    <facial id="head_lookdown" name="Look down - 3.0 eyes only" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="look_down"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
     <facial id="head_noticed" name="Noticed" enable="Y">
         <selection type="beard" state_id="default"/>
         <selection type="ear" state_id="default"/>
@@ -9478,6 +9491,7 @@
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
         <state id="happy" filename="default.swf"/>
+        <state id="look_down" filename="look_down.swf"/>
         <state id="sad" filename="sad.swf"/>
         <state id="schemeing" filename="angry.swf"/>
         <state id="shock" filename="shock.swf"/>
@@ -9491,6 +9505,7 @@
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
         <state id="happy" filename="default.swf"/>
+        <state id="look_down" filename="look_down.swf"/>
         <state id="sad" filename="sad.swf"/>
         <state id="schemeing" filename="angry.swf"/>
         <state id="shock" filename="shock.swf"/>
@@ -9504,6 +9519,7 @@
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
         <state id="happy" filename="default.swf"/>
+        <state id="look_down" filename="look_down.swf"/>
         <state id="sad" filename="sad.swf"/>
         <state id="schemeing" filename="angry.swf"/>
         <state id="shock" filename="shock.swf"/>
@@ -9517,6 +9533,7 @@
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
         <state id="happy" filename="default.swf"/>
+        <state id="look_down" filename="look_down.swf"/>
         <state id="sad" filename="sad.swf"/>
         <state id="schemeing" filename="angry.swf"/>
         <state id="shock" filename="shock.swf"/>
@@ -9530,6 +9547,35 @@
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
         <state id="happy" filename="default.swf"/>
+        <state id="look_down" filename="look_down.swf"/>
+        <state id="sad" filename="sad.swf"/>
+        <state id="schemeing" filename="angry.swf"/>
+        <state id="shock" filename="shock.swf"/>
+        <state id="sick" filename="sick.swf"/>
+        <state id="thinking" filename="confused.swf"/>
+        <state id="yawn" filename="desperate.swf"/>
+    </component>
+    <component type="eye" id="2007" path="2007" name="2007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="angry" filename="angry.swf"/>
+        <state id="asleep" filename="closed_eye.swf"/>
+        <state id="cry" filename="cry.swf"/>
+        <state id="default" filename="default.swf"/>
+        <state id="happy" filename="default.swf"/>
+        <state id="look_down" filename="look_down.swf"/>
+        <state id="sad" filename="sad.swf"/>
+        <state id="schemeing" filename="angry.swf"/>
+        <state id="shock" filename="shock.swf"/>
+        <state id="sick" filename="sick.swf"/>
+        <state id="thinking" filename="confused.swf"/>
+        <state id="yawn" filename="desperate.swf"/>
+    </component>
+    <component type="eye" id="2008" path="2008" name="2008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="angry" filename="angry.swf"/>
+        <state id="asleep" filename="closed_eye.swf"/>
+        <state id="cry" filename="cry.swf"/>
+        <state id="default" filename="default.swf"/>
+        <state id="happy" filename="default.swf"/>
+        <state id="look_down" filename="look_down.swf"/>
         <state id="sad" filename="sad.swf"/>
         <state id="schemeing" filename="angry.swf"/>
         <state id="shock" filename="shock.swf"/>
