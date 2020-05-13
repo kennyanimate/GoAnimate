@@ -16419,6 +16419,10 @@
   <prop id="mysterymachineinteriorback.swf" name="Mystery Machine Interior - Back" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000007" money="0" sharing="0"/>
   <prop id="mysterymachineinteriorfront.swf" name="Mystery Machine Interior - Front" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000008" money="0" sharing="0"/>
   <prop id="chuckecheese.swf" name="Chuck E. Cheese" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000009" money="0" sharing="0"/>
+  <prop id="redlobsterlogo.swf" name="Red Lobster Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000010" money="0" sharing="0"/>
+  <prop id="windowsvista.swf" name="Windows Vista Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000011" money="0" sharing="0"/>
+  <prop id="windowsxp.swf" name="Windows XP Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000012" money="0" sharing="0"/>
+  <prop id="windowswhistler.swf" name="Windows Whistler Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000013" money="0" sharing="0"/>
 
   
   <prop id="ncc_rbuilding01.swf" name="Building" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11297" money="0" sharing="0"/>
@@ -17987,6 +17991,12 @@
     <tag>rock</tag>
     <tag>Smooth</tag>
   </sound>
+  
+  
+  <sound id="heavysaysdead.mp3" name="Heavy Says Dead" downloadtype="progressive" subtype="soundeffect" duration="1900" enable="Y" is_premium="N" aid="1000000" money="0" sharing="0"/>
+  <sound id="crash.mp3" name="Crash" downloadtype="progressive" subtype="soundeffect" duration="3500" enable="Y" is_premium="N" aid="1000001" money="0" sharing="0"/>
+  
+  
   <sound id="FunkyBeat.mp3" name="Funky Beat" downloadtype="progressive" subtype="tribeofnoise" duration="35600" enable="Y" is_premium="N" aid="6046" money="0" sharing="0"/>
   <sound id="recipe_for_riches.mp3" name="Recipe For Riches" downloadtype="progressive" subtype="tribeofnoise" duration="227500" enable="Y" is_premium="N" aid="6047" money="0" sharing="0"/>
   <sound id="tibetan_monks.mp3" name="Tibetan Monks" downloadtype="progressive" subtype="tribeofnoise" duration="217400" enable="Y" is_premium="N" aid="6048" money="0" sharing="0"/>
