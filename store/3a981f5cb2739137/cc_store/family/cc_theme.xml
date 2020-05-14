@@ -12643,7 +12643,7 @@
         <state id="default" filename="default.swf"/>
     </component>
     <component type="facedecoration" id="lilyfacedecorationfolder" path="lilyfacedecorationfolder" name="lilyfacedecorationfolder" thumb="thumbnail.jpg" money="0" sharing="0" enable="Y">
-        <state id="default" filename="lilyfacedecoration.swf"/>
+        <state id="default" filename="default.swf"/>
     </component>
     <component type="beard" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
