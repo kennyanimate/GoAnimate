@@ -9439,6 +9439,9 @@
     <component type="ear" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" random_able="N">
         <state id="default" filename="default.swf"/>
     </component>
+    <component type="ear" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="default" filename="default.swf"/>
+    </component>
     <component type="ear" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
@@ -12081,9 +12084,6 @@
         <state id="default" filename="default.swf"/>
     </component>
     <component type="ear" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="default" filename="default.swf"/>
-    </component>
-    <component type="ear" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
     <component type="ear" id="003a" path="003a" name="003a" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
