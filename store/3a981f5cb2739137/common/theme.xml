@@ -17996,6 +17996,11 @@
   
   <sound id="heavysaysdead.mp3" name="Heavy Says Dead" downloadtype="progressive" subtype="soundeffect" duration="1900" enable="Y" is_premium="N" aid="1000000" money="0" sharing="0"/>
   <sound id="crash.mp3" name="Crash" downloadtype="progressive" subtype="soundeffect" duration="3500" enable="Y" is_premium="N" aid="1000001" money="0" sharing="0"/>
+  <sound id="Censored.mp3" name="Censored" downloadtype="progressive" subtype="soundeffect" duration="7000" enable="Y" is_premium="N" aid="1000002" money="0" sharing="0"/>
+  <sound id="Footsteps.wav" name="Footsteps" downloadtype="progressive" subtype="soundeffect" duration="7000" enable="Y" is_premium="N" aid="1000003" money="0" sharing="0"/>
+  <sound id="Footsteps - Adam.wav" name="Footsteps - Adam" downloadtype="progressive" subtype="soundeffect" duration="6000" enable="Y" is_premium="N" aid="1000004" money="0" sharing="0"/>
+  <sound id="Footsteps - Eve.wav" name="Footsteps - Eve" downloadtype="progressive" subtype="soundeffect" duration="5500" enable="Y" is_premium="N" aid="1000005" money="0" sharing="0"/>
+  <sound id="Footsteps - Running.wav" name="Footsteps - Running" downloadtype="progressive" subtype="soundeffect" duration="3500" enable="Y" is_premium="N" aid="1000006" money="0" sharing="0"/>
   
   
   <sound id="FunkyBeat.mp3" name="Funky Beat" downloadtype="progressive" subtype="tribeofnoise" duration="35600" enable="Y" is_premium="N" aid="6046" money="0" sharing="0"/>
