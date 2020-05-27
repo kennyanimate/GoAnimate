@@ -1380,6 +1380,7 @@
             <state id="kneel_down" filename="kneel_down.swf"/>
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
+            <state id="look_down" filename="look_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
@@ -3554,6 +3555,7 @@
             <state id="kneel_down" filename="kneel_down.swf"/>
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
+            <state id="look_down" filename="look_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
@@ -5713,6 +5715,7 @@
             <state id="kneel_down" filename="kneel_down.swf"/>
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
+            <state id="look_down" filename="look_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
@@ -7818,6 +7821,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="laugh_point" filename="laugh_point.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
+            <state id="look_down" filename="look_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
