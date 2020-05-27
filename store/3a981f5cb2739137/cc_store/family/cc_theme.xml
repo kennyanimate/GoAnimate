@@ -874,7 +874,7 @@
             <selection type="skeleton" state_id="touch_pad"/>
             <selection type="upper_body" state_id="touch_pad"/>
         </action>
-        <component type="lower_body" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <component type="lower_body" id="kid_001" path="kid_001" name="kid_001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
             <state id="angry" filename="angry.swf"/>
             <state id="attack_a" filename="attack_a.swf"/>
             <state id="attack_b" filename="attack_b.swf"/>
@@ -891,7 +891,7 @@
             <state id="stand" filename="stand.swf"/>
             <state id="walk" filename="walk.swf"/>
         </component>
-        <component type="lower_body" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <component type="lower_body" id="kid_001" path="kid_001" name="kid_001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
             <state id="angry" filename="angry.swf"/>
             <state id="attack_a" filename="attack_a.swf"/>
             <state id="attack_b" filename="attack_b.swf"/>
@@ -908,29 +908,7 @@
             <state id="stand" filename="stand.swf"/>
             <state id="walk" filename="walk.swf"/>
         </component>
-        <component type="skeleton" id="default" path="default" name="default" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-            <state id="angry" filename="angry.swf"/>
-            <state id="attack_a" filename="attack_a.swf"/>
-            <state id="attack_b" filename="attack_b.swf"/>
-            <state id="defend" filename="defend.swf"/>
-            <state id="excited" filename="excited.swf"/>
-            <state id="get_hit" filename="get_hit.swf"/>
-            <state id="inspect_prop" filename="inspect_prop.swf"/>
-            <state id="jump" filename="jump.swf"/>
-            <state id="laugh" filename="laugh.swf"/>
-            <state id="lie_down" filename="lie_down.swf"/>
-            <state id="point_at" filename="point_at.swf"/>
-            <state id="run" filename="run.swf"/>
-            <state id="sad" filename="sad.swf"/>
-            <state id="shock" filename="shock.swf"/>
-            <state id="sit" filename="sit.swf"/>
-            <state id="stand" filename="stand.swf"/>
-            <state id="talk" filename="talk.swf"/>
-            <state id="thinking" filename="thinking.swf"/>
-            <state id="touch_pad" filename="touch_pad.swf"/>
-            <state id="walk" filename="walk.swf"/>
-        </component>
-        <component type="upper_body" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <component type="skeleton" id="kid_001" path="kid_001" name="kid_001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
             <state id="angry" filename="angry.swf"/>
             <state id="attack_a" filename="attack_a.swf"/>
             <state id="attack_b" filename="attack_b.swf"/>
@@ -952,7 +930,29 @@
             <state id="touch_pad" filename="touch_pad.swf"/>
             <state id="walk" filename="walk.swf"/>
         </component>
-        <component type="upper_body" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <component type="upper_body" id="kid_001" path="kid_001" name="kid_001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+            <state id="angry" filename="angry.swf"/>
+            <state id="attack_a" filename="attack_a.swf"/>
+            <state id="attack_b" filename="attack_b.swf"/>
+            <state id="defend" filename="defend.swf"/>
+            <state id="excited" filename="excited.swf"/>
+            <state id="get_hit" filename="get_hit.swf"/>
+            <state id="inspect_prop" filename="inspect_prop.swf"/>
+            <state id="jump" filename="jump.swf"/>
+            <state id="laugh" filename="laugh.swf"/>
+            <state id="lie_down" filename="lie_down.swf"/>
+            <state id="point_at" filename="point_at.swf"/>
+            <state id="run" filename="run.swf"/>
+            <state id="sad" filename="sad.swf"/>
+            <state id="shock" filename="shock.swf"/>
+            <state id="sit" filename="sit.swf"/>
+            <state id="stand" filename="stand.swf"/>
+            <state id="talk" filename="talk.swf"/>
+            <state id="thinking" filename="thinking.swf"/>
+            <state id="touch_pad" filename="touch_pad.swf"/>
+            <state id="walk" filename="walk.swf"/>
+        </component>
+        <component type="upper_body" id="kid_002" path="kid_002" name="kid_002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
             <state id="angry" filename="angry.swf"/>
             <state id="attack_a" filename="attack_a.swf"/>
             <state id="attack_b" filename="attack_b.swf"/>
