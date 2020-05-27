@@ -742,7 +742,7 @@
   <color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color>
   <color r="ccLowerMain" oc="0xCCBC9A">0xCC9966</color>
   <color r="ccLowerMinor" oc="0xEEEEEE">0xFFFFFF</color>
-  <component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/>
+  <component type="bodyshape" component_id="kid" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/>
   <component type="skeleton" component_id="kid_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/>
   <component type="upper_body" component_id="kid_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/>
   <component type="lower_body" component_id="kid_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/>
