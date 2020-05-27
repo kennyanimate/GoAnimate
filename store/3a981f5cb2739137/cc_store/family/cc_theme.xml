@@ -144,14 +144,14 @@
         <choice>0x000000</choice>
     </color>
 	<color r="ccDecMinor" component_type="facedecoration" enable="Y">
-		<choice>0xFFFFFF</choice>
-	    <choice>0xC1BFB8</choice>
-	    <choice>0xC29B22</choice>
-	    <choice>0x8B6F18</choice>
-	    <choice>0x8F1E1E</choice>
-	    <choice>0x640F0F</choice>
-	    <choice>0x360202</choice>
-	    <choice>0x000000</choice>
+        <choice>0xFFFFFF</choice>
+	<choice>0xC1BFB8</choice>
+	<choice>0xC29B22</choice>
+	<choice>0x8B6F18</choice>
+	<choice>0x8F1E1E</choice>
+	<choice>0x640F0F</choice>
+	<choice>0x360202</choice>
+	<choice>0x000000</choice>
 	</color>
     <facial id="head_talk_a" name="Talk neutral A" enable="Y">
         <selection type="beard" state_id="default"/>
@@ -891,7 +891,7 @@
             <state id="stand" filename="stand.swf"/>
             <state id="walk" filename="walk.swf"/>
         </component>
-        <component type="lower_body" id="kid_001" path="kid_001" name="kid_001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <component type="lower_body" id="kid_002" path="kid_002" name="kid_002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
             <state id="angry" filename="angry.swf"/>
             <state id="attack_a" filename="attack_a.swf"/>
             <state id="attack_b" filename="attack_b.swf"/>
