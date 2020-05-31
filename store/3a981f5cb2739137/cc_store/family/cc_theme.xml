@@ -1110,16 +1110,34 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="talk_on_phone"/>
         </action>
-        <action id="xarms" name="Crossed arms" loop="Y" totalframe="1" enable="Y" is_motion="N">
+        <action id="xarms" name="Crossed arms 1" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="crossed_arms"/>
             <selection type="upper_body" state_id="crossed_arms"/>
         </action>
+        <action id="xarms2" name="Crossed arms 2" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="crossed_arms"/>
+        </action>
+        <action id="bend" name="Bend" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="crossed_arms"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
         <action id="excited" name="Excited / Cheers" loop="Y" totalframe="80" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_happy"/>
             <selection type="lower_body" state_id="excited"/>
             <selection type="skeleton" state_id="excited"/>
+            <selection type="upper_body" state_id="excited"/>
+        </action>
+        <action id="veryexcited" name="Very Excited / Cheering a lot" loop="Y" totalframe="80" enable="Y" category="emotion" is_motion="N">
+            <selection type="facial" facial_id="head_surprised"/>
+            <selection type="lower_body" state_id="excited"/>
+            <selection type="skeleton" state_id="crossed_arms"/>
             <selection type="upper_body" state_id="excited"/>
         </action>
         <action id="furious" name="Furious" loop="Y" totalframe="80" enable="Y" category="emotion" is_motion="N">
@@ -1174,6 +1192,12 @@
             <selection type="facial" facial_id="head_disgusted"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="taunt"/>
+            <selection type="upper_body" state_id="taunt"/>
+        </action>
+        <action id="nono" name="Don't do that" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
+            <selection type="facial" facial_id="head_angry"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="default"/>
             <selection type="upper_body" state_id="taunt"/>
         </action>
         <action id="taunt" name="Taunt" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
