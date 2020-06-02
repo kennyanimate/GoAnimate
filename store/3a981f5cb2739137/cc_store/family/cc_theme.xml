@@ -3241,7 +3241,7 @@
             <state id="walk" filename="walk.swf"/>
         </component>
     </bodyshape>
-    <bodyshape id="eve" name="Eve" default_action="stand" default_motion="walk" action_thumb="idle2" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="female">
+    <bodyshape id="eve" name="Eve" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="female">
         <default_char>
   <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
   <color r="ccEyeLib">0x4B0156</color>
@@ -3299,18 +3299,6 @@
             <selection type="lower_body" state_id="lie_down"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="kneel_down"/>
-        </action>
-        <action id="idle" name="Idle 1" loop="Y" totalframe="1" enable="Y" is_motion="N">
-            <selection type="facial" facial_id="head_neutral"/>
-            <selection type="lower_body" state_id="default"/>
-            <selection type="skeleton" state_id="talk_on_phone2"/>
-            <selection type="upper_body" state_id="default"/>
-        </action>
-        <action id="idle2" name="Idle 2" loop="Y" totalframe="1" enable="Y" is_motion="N">
-            <selection type="facial" facial_id="head_neutral"/>
-            <selection type="lower_body" state_id="lie_down"/>
-            <selection type="skeleton" state_id="talk_on_phone2"/>
-            <selection type="upper_body" state_id="default"/>
         </action>
         <action id="look_down" name="Look down" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
