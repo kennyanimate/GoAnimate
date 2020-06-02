@@ -1114,6 +1114,12 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="talk_on_phone"/>
         </action>
+        <action id="bend" name="bend" loop="Y" totalframe="80" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="bend"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
         <action id="xarms" name="Crossed arms 1" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
@@ -1129,7 +1135,7 @@
         <action id="furious" name="Furious" loop="Y" totalframe="80" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_angry"/>
             <selection type="lower_body" state_id="laugh"/>
-            <selection type="skeleton" state_id="excited"/>
+            <selection type="skeleton" state_id="bend"/>
             <selection type="upper_body" state_id="excited"/>
         </action>
         <action id="twitch" name="Twitch legs" loop="Y" totalframe="80" enable="Y" is_motion="N">
@@ -1376,6 +1382,7 @@
             <state id="walk" filename="walk.swf"/>
         </component>
         <component type="skeleton" id="adam_001" path="adam_001" name="adam_001" thumb="thumbnail.swf" display_order="0" money="0" sharing="0" enable="Y">
+            <state id="bend" filename="bend.swf"/>
             <state id="chuckle" filename="chuckle.swf"/>
             <state id="crossed_arms" filename="crossed_arms.swf"/>
             <state id="dance" filename="dance.swf"/>
@@ -3348,7 +3355,7 @@
             <selection type="skeleton" state_id="sit"/>
             <selection type="upper_body" state_id="sit"/>
         </action>
-        <action id="sitrock" name="Rocking back and forth" loop="Y" totalframe="1" enable="Y" is_motion="N">
+        <action id="rocking" name="Rocking back and forth" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="sit"/>
             <selection type="skeleton" state_id="talk_on_phone2"/>
