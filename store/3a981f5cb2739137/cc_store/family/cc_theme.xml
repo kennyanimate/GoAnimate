@@ -1428,6 +1428,12 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="run"/>
         </action>
+        <action id="guitar" name="Get guitar ready" loop="Y" totalframe="1" enable="Y" category="grip / gear" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="guitar_18_ready_b"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
         <component type="upper_body" id="nothing" path="nothing" name="nothing" thumb="thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
             <state id="dance" filename="dance.swf"/>
             <state id="default" filename="default.swf"/>
@@ -1468,6 +1474,7 @@
             <state id="dance" filename="dance.swf"/>
             <state id="excited" filename="excited.swf"/>
             <state id="fearful" filename="fearful.swf"/>
+            <state id="guitar_18_ready_b" filename="guitar_18_ready_b.swf"/>
             <state id="kneel_down" filename="kneel_down.swf"/>
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
