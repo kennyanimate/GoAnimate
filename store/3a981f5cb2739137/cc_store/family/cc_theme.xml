@@ -1315,6 +1315,24 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="point_at"/>
         </action>
+        <action id="lookslightlyup" name="Look slightly up" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="lookslightlyup"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
+        <action id="lookslightlyupxarms" name="Look slightly up - Crossed arms" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="lookslightlyup"/>
+            <selection type="upper_body" state_id="crossed_arms"/>
+        </action>
+        <action id="move" name="You don't wanna know..." loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="move"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
         <action id="idle" name="Idle 1" loop="Y" totalframe="115" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
@@ -1360,7 +1378,7 @@
         <action id="punch" name="Punch" loop="Y" totalframe="20" enable="Y" category="fighting" is_motion="N">
             <selection type="facial" facial_id="head_angry"/>
             <selection type="lower_body" state_id="default"/>
-            <selection type="skeleton" state_id="stand"/>
+            <selection type="skeleton" state_id="move"/>
             <selection type="upper_body" state_id="run"/>
         </action>
         <action id="dance" name="Dance" loop="Y" totalframe="23" enable="Y" is_motion="N">
@@ -1431,6 +1449,8 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="look_down" filename="look_down.swf"/>
+            <state id="lookslightlyup" filename="lookslightlyup.swf"/>
+            <state id="move" filename="move.swf"/>
             <!-- <state id="look_up" filename="look_up.swf"/> -->
             <state id="point_at" filename="point_at.swf"/>
             <state id="run" filename="run.swf"/>
