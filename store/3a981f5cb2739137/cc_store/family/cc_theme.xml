@@ -1278,6 +1278,12 @@
             <selection type="skeleton" state_id="sad"/>
             <selection type="upper_body" state_id="sad"/>
         </action>
+        <action id="scoldchild" name="Scold child" loop="Y" totalframe="80" enable="Y" category="emotion" is_motion="N">
+            <selection type="facial" facial_id="head_angry"/>
+            <selection type="lower_body" state_id="laugh"/>
+            <selection type="skeleton" state_id="look_down"/>
+            <selection type="upper_body" state_id="excited"/>
+        </action>
         <action id="laugh" name="Laugh" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_laugh"/>
             <selection type="lower_body" state_id="laugh"/>
@@ -1343,6 +1349,12 @@
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="move"/>
             <selection type="upper_body" state_id="default"/>
+        </action>
+        <action id="rage" name="Rage" loop="Y" totalframe="115" enable="Y" category="emotion" is_motion="N">
+            <selection type="facial" facial_id="head_furious"/>
+            <selection type="lower_body" state_id="excited"/>
+            <selection type="skeleton" state_id="move"/>
+            <selection type="upper_body" state_id="excited"/>
         </action>
         <action id="idle" name="Idle 1" loop="Y" totalframe="115" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
@@ -3605,6 +3617,12 @@
             <selection type="skeleton" state_id="sad"/>
             <selection type="upper_body" state_id="sad"/>
         </action>
+        <action id="scoldchild" name="Scold child" loop="Y" totalframe="80" enable="Y" category="emotion" is_motion="N">
+            <selection type="facial" facial_id="head_angry"/>
+            <selection type="lower_body" state_id="laugh"/>
+            <selection type="skeleton" state_id="sad"/>
+            <selection type="upper_body" state_id="excited"/>
+        </action>
         <action id="blowkiss" name="Blow kiss" loop="Y" totalframe="60" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_kiss"/>
             <selection type="lower_body" state_id="default"/>
@@ -3628,6 +3646,12 @@
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="laugh"/>
             <selection type="upper_body" state_id="default"/>
+        </action>
+        <action id="rage" name="Rage" loop="Y" totalframe="115" enable="Y" category="emotion" is_motion="N">
+            <selection type="facial" facial_id="head_furious"/>
+            <selection type="lower_body" state_id="excited"/>
+            <selection type="skeleton" state_id="laugh"/>
+            <selection type="upper_body" state_id="excited"/>
         </action>
         <action id="throw_tantrum" name="Throw tantrum" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_cry"/>
