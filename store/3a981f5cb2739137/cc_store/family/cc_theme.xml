@@ -3611,6 +3611,12 @@
             <selection type="skeleton" state_id="laugh"/>
             <selection type="upper_body" state_id="laugh"/>
         </action>
+        <action id="sick" name="Sick" loop="Y" totalframe="6" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_sick"/>
+            <selection type="lower_body" state_id="laugh"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="laugh"/>
+        </action>
         <action id="sad" name="Sad" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_sad"/>
             <selection type="lower_body" state_id="default"/>
