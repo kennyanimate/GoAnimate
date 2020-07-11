@@ -299,6 +299,19 @@
     <facial id="head_neutralb" name="Neutral b" enable="Y">
         <selection type="beard" state_id="default"/>
         <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default2"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_neutralc" name="Neutral c" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="happy"/>
         <selection type="eyebrow" state_id="default"/>
         <selection type="facedecoration" state_id="default"/>
@@ -10922,6 +10935,7 @@
         <state id="chewing" filename="chewing.swf"/>
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
+        <state id="default2" filename="default2.swf"/>
         <state id="happy" filename="happy.swf"/>
         <state id="laugh" filename="laugh.swf"/>
         <state id="sad" filename="sad.swf"/>
@@ -10942,6 +10956,7 @@
         <state id="chewing" filename="chewing.swf"/>
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
+        <state id="default2" filename="default.swf"/>
         <state id="happy" filename="happy.swf"/>
         <state id="laugh" filename="laugh.swf"/>
         <state id="sad" filename="sad.swf"/>
@@ -10962,6 +10977,7 @@
         <state id="chewing" filename="chewing.swf"/>
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
+        <state id="default2" filename="default.swf"/>
         <state id="happy" filename="happy.swf"/>
         <state id="laugh" filename="laugh.swf"/>
         <state id="sad" filename="sad.swf"/>
@@ -10982,6 +10998,7 @@
         <state id="chewing" filename="chewing.swf"/>
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
+        <state id="default2" filename="default2.swf"/>
         <state id="happy" filename="happy.swf"/>
         <state id="laugh" filename="laugh.swf"/>
         <state id="sad" filename="sad.swf"/>
@@ -11002,6 +11019,7 @@
         <state id="chewing" filename="chewing.swf"/>
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
+        <state id="default2" filename="default.swf"/>
         <state id="happy" filename="happy.swf"/>
         <state id="laugh" filename="laugh.swf"/>
         <state id="sad" filename="sad.swf"/>
@@ -11022,6 +11040,7 @@
         <state id="chewing" filename="chewing.swf"/>
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
+        <state id="default2" filename="default.swf"/>
         <state id="happy" filename="happy.swf"/>
         <state id="laugh" filename="laugh.swf"/>
         <state id="sad" filename="sad.swf"/>
@@ -11042,6 +11061,7 @@
         <state id="chewing" filename="chewing.swf"/>
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
+        <state id="default2" filename="default.swf"/>
         <state id="happy" filename="happy.swf"/>
         <state id="laugh" filename="laugh.swf"/>
         <state id="sad" filename="sad.swf"/>
@@ -11060,6 +11080,7 @@
     <component type="mouth" id="103" path="103" name="103" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
         <state id="chewing" filename="chewing.swf"/>
+        <state id="default2" filename="default.swf"/>
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>
         <state id="happy" filename="happy.swf"/>
