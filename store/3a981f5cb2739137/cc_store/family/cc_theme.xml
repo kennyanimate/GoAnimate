@@ -1332,7 +1332,7 @@
             <selection type="skeleton" state_id="chuckle"/>
             <selection type="upper_body" state_id="chuckle"/>
         </action>
-        <action id="pt_at" name="Point at 1" loop="Y" totalframe="30" enable="Y" is_motion="N">
+        <action id="pt_at" name="Point at 1" loop="Y" totalframe="30" enable="Y" category="poses / gestures" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="point_at"/>
@@ -1392,7 +1392,7 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="talk_on_phone"/>
         </action>
-        <action id="pt_at2" name="Point at 2" loop="Y" totalframe="115" enable="Y" is_motion="N">
+        <action id="pt_at2" name="Point at 2" loop="Y" totalframe="115" enable="Y" category="poses / gestures" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="stand"/>
