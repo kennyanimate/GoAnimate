@@ -1068,6 +1068,12 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="chuckle"/>
         </action>
+        <action id="stand7" name="Stand 7" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="laugh"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
         <action id="look_down" name="Look down" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
@@ -3467,6 +3473,12 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="kneel_down"/>
         </action>
+        <action id="stand6" name="Stand 5" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="laugh"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
         <action id="idle" name="Idle 1" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
@@ -3557,6 +3569,12 @@
             <selection type="skeleton" state_id="sit"/>
             <selection type="upper_body" state_id="sit"/>
         </action>
+        <action id="sit3" name="Sit 3" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="sit"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="lie_down"/>
+        </action>
         <action id="rocking" name="Rocking back and forth" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="sit"/>
@@ -3590,6 +3608,12 @@
         <action id="xarmsx" name="Crossed arms 2" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="crossed_arms"/>
+            <selection type="upper_body" state_id="crossed_arms"/>
+        </action>
+        <action id="xarmsxx" name="Crossed arms 3" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="laugh"/>
             <selection type="skeleton" state_id="crossed_arms"/>
             <selection type="upper_body" state_id="crossed_arms"/>
         </action>
@@ -3797,10 +3821,16 @@
             <selection type="skeleton" state_id="fearful"/>
             <selection type="upper_body" state_id="fearful"/>
         </action>
-        <action id="talk" name="Talk" loop="Y" totalframe="100" enable="Y" is_motion="N">
+        <action id="talk" name="Talk 1" loop="Y" totalframe="100" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_talk_a"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="talk"/>
+            <selection type="upper_body" state_id="talk"/>
+        </action>
+        <action id="talk" name="Talk 2" loop="Y" totalframe="100" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="talk"/>
         </action>
         <component type="skeleton" id="eve_001" path="eve_001" name="eve_001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
