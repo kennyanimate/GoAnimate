@@ -1062,6 +1062,12 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="kneel_down"/>
         </action>
+        <action id="stand6" name="Stand 6" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="chuckle"/>
+        </action>
         <action id="look_down" name="Look down" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
@@ -1089,6 +1095,12 @@
         <action id="walk2" name="Walk 2" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="walk"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="walk"/>
+        </action>
+        <action id="walk3" name="Walk 3" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="walk"/>
             <selection type="skeleton" state_id="walk"/>
             <selection type="upper_body" state_id="default"/>
         </action>
@@ -1101,14 +1113,26 @@
         <action id="run2" name="Run 2" loop="Y" totalframe="20" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="run"/>
-            <selection type="skeleton" state_id="run"/>
-            <selection type="upper_body" state_id="walk"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="run"/>
         </action>
         <action id="run3" name="Run 3" loop="Y" totalframe="20" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="run"/>
             <selection type="skeleton" state_id="run"/>
+            <selection type="upper_body" state_id="walk"/>
+        </action>
+        <action id="run4" name="Run 4" loop="Y" totalframe="20" enable="Y" category="traveling" is_motion="Y">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="run"/>
+            <selection type="skeleton" state_id="run"/>
             <selection type="upper_body" state_id="default"/>
+        </action>
+        <action id="beingchased" name="Being chased" loop="Y" totalframe="20" enable="Y" category="traveling" is_motion="Y">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="run"/>
+            <selection type="skeleton" state_id="run"/>
+            <selection type="upper_body" state_id="lie_down"/>
         </action>
         <action id="sprint" name="Sprint" loop="Y" totalframe="20" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_badass"/>
@@ -1254,10 +1278,16 @@
             <selection type="skeleton" state_id="point_at"/>
             <selection type="upper_body" state_id="laugh"/>
         </action>
-        <action id="chuckle" name="Chuckle" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
+        <action id="chuckle" name="Chuckle 1" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_happy"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="chuckle"/>
+            <selection type="upper_body" state_id="chuckle"/>
+        </action>
+        <action id="chuckle2" name="Chuckle 2" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
+            <selection type="facial" facial_id="head_happy"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="walk"/>
             <selection type="upper_body" state_id="chuckle"/>
         </action>
         <action id="sitchuckle" name="Sit - Chuckle" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
