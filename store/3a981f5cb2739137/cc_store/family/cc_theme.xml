@@ -1506,12 +1506,6 @@
             <selection type="skeleton" state_id="fearful"/>
             <selection type="upper_body" state_id="fearful"/>
         </action>
-        <action id="pose" name="Pose" loop="Y" totalframe="60" enable="Y" is_motion="N">
-            <selection type="facial" facial_id="head_neutral"/>
-            <selection type="lower_body" state_id="fearful"/>
-            <selection type="skeleton" state_id="stand"/>
-            <selection type="upper_body" state_id="default"/>
-        </action>
         <action id="talk" name="Talk" loop="Y" totalframe="100" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_talk_a"/>
             <selection type="lower_body" state_id="default"/>
