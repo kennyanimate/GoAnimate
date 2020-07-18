@@ -1170,9 +1170,21 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="default"/>
         </action>
-        <action id="lie" name="Lie down" loop="Y" totalframe="1" enable="Y" is_motion="N">
+        <action id="lie" name="Lie down 1" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="lie_down"/>
+            <selection type="upper_body" state_id="lie_down"/>
+        </action>
+        <action id="lie2" name="Lie down 2" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="laugh"/>
+            <selection type="skeleton" state_id="lie_down"/>
+            <selection type="upper_body" state_id="lie_down"/>
+        </action>
+        <action id="lie3" name="Lie down - Legs up" loop="Y" totalframe="1" enable="Y" category="exercising" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="sit"/>
             <selection type="skeleton" state_id="lie_down"/>
             <selection type="upper_body" state_id="lie_down"/>
         </action>
@@ -1422,7 +1434,7 @@
             <selection type="skeleton" state_id="lookslightlydown"/>
             <selection type="upper_body" state_id="sit"/>
         </action>
-        <action id="dame" name="Dame tu cosita" loop="Y" totalframe="115" enable="Y" is_motion="N">
+        <action id="dame" name="Dame tu cosita" loop="Y" totalframe="115" enable="Y" category="dancing" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="move"/>
@@ -1452,7 +1464,7 @@
             <selection type="skeleton" state_id="talk_on_phone"/>
             <selection type="upper_body" state_id="crossed_arms"/>
         </action>
-        <action id="rocking" name="Rocking back and forth" loop="Y" totalframe="115" enable="Y" is_motion="N">
+        <action id="rocking" name="Sit - Rock back and forth" loop="Y" totalframe="115" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="sit"/>
             <selection type="skeleton" state_id="talk_on_phone"/>
@@ -1482,7 +1494,7 @@
             <selection type="skeleton" state_id="move"/>
             <selection type="upper_body" state_id="run"/>
         </action>
-        <action id="dance" name="Dance" loop="Y" totalframe="23" enable="Y" is_motion="N">
+        <action id="dance" name="Dance" loop="Y" totalframe="23" enable="Y" category="dancing" is_motion="N">
             <selection type="facial" facial_id="head_happy"/>
             <selection type="lower_body" state_id="dance"/>
             <selection type="skeleton" state_id="dance"/>
@@ -3473,11 +3485,17 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="kneel_down"/>
         </action>
-        <action id="stand6" name="Stand 5" loop="Y" totalframe="1" enable="Y" is_motion="N">
+        <action id="stand6" name="Stand 6" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="laugh"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="default"/>
+        </action>
+        <action id="stand7" name="Stand 7" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="laugh"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="lie_down"/>
         </action>
         <action id="idle" name="Idle 1" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
@@ -3557,9 +3575,15 @@
             <selection type="skeleton" state_id="run"/>
             <selection type="upper_body" state_id="run"/>
         </action>
-        <action id="movearms" name="Move arms" loop="Y" totalframe="1" enable="Y" is_motion="N">
+        <action id="movearms" name="Move arms 1" loop="Y" totalframe="1" enable="Y" category="dancing" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="walk"/>
+        </action>
+        <action id="movearms2" name="Move arms 2" loop="Y" totalframe="1" enable="Y" category="dancing" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="laugh"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="walk"/>
         </action>
@@ -3575,15 +3599,39 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="lie_down"/>
         </action>
-        <action id="rocking" name="Rocking back and forth" loop="Y" totalframe="1" enable="Y" is_motion="N">
+        <action id="rocking" name="Sit - Rock back and forth 1" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="sit"/>
             <selection type="skeleton" state_id="talk_on_phone2"/>
             <selection type="upper_body" state_id="sit"/>
         </action>
-        <action id="lie" name="Lie down" loop="Y" totalframe="1" enable="Y" is_motion="N">
+        <action id="rocking2" name="Sit - Rock back and forth 2" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="sit"/>
+            <selection type="skeleton" state_id="talk_on_phone2"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
+        <action id="lie" name="Lie down 1" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="lie_down"/>
+            <selection type="skeleton" state_id="lie_down"/>
+            <selection type="upper_body" state_id="lie_down"/>
+        </action>
+        <action id="lie2" name="Lie down 2" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="lie_down"/>
+            <selection type="upper_body" state_id="lie_down"/>
+        </action>
+        <action id="lie3" name="Lie down 3" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="laugh"/>
+            <selection type="skeleton" state_id="lie_down"/>
+            <selection type="upper_body" state_id="lie_down"/>
+        </action>
+        <action id="lie4" name="Lie down - Legs up" loop="Y" totalframe="1" enable="Y" category="exercising" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="sit"/>
             <selection type="skeleton" state_id="lie_down"/>
             <selection type="upper_body" state_id="lie_down"/>
         </action>
@@ -3767,7 +3815,7 @@
             <selection type="skeleton" state_id="sad"/>
             <selection type="upper_body" state_id="talk_on_phone"/>
         </action>
-        <action id="dame" name="Dame tu cosita" loop="Y" totalframe="115" enable="Y" is_motion="N">
+        <action id="dame" name="Dame tu cosita" loop="Y" totalframe="115" enable="Y" category="dancing" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="laugh"/>
@@ -3809,7 +3857,7 @@
             <selection type="skeleton" state_id="talk_on_phone"/>
             <selection type="upper_body" state_id="talk_on_phone"/>
         </action>
-        <action id="dance" name="Dance" loop="Y" totalframe="23" enable="Y" is_motion="N">
+        <action id="dance" name="Dance" loop="Y" totalframe="23" enable="Y" category="dancing" is_motion="N">
             <selection type="facial" facial_id="head_happy"/>
             <selection type="lower_body" state_id="dance"/>
             <selection type="skeleton" state_id="dance"/>
