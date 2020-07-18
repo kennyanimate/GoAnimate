@@ -1260,6 +1260,12 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="lie_down"/>
         </action>
+        <action id="kneelxarms" name="Kneel down - Crossed arms" loop="Y" totalframe="1" enable="Y" category="poses / gestures" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="kneel_down"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="crossed_arms"/>
+        </action>
         <action id="kneel2" name="Kneel down 2" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="kneel_down"/>
@@ -1566,7 +1572,7 @@
             <selection type="skeleton" state_id="talk_on_phone"/>
             <selection type="upper_body" state_id="lie_down"/>
         </action>
-        <action id="xarmsmove" name="Crossed arms - Move" loop="Y" totalframe="115" enable="Y" is_motion="N">
+        <action id="xarmsmove" name="Crossed arms - Move" loop="Y" totalframe="115" enable="Y" category="poses / gestures" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="talk_on_phone"/>
@@ -3696,6 +3702,12 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="point_at"/>
         </action>
+        <action id="walkxarms" name="Walk - Crossed arms" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="walk"/>
+            <selection type="skeleton" state_id="crossed_arms"/>
+            <selection type="upper_body" state_id="crossed_arms"/>
+        </action>
         <action id="walktalk" name="Walk - Talk" loop="Y" totalframe="24" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_talk_a"/>
             <selection type="lower_body" state_id="walk"/>
@@ -3827,6 +3839,12 @@
             <selection type="lower_body" state_id="kneel_down"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="lie_down"/>
+        </action>
+        <action id="kneelxarms" name="Kneel down - Crossed arms" loop="Y" totalframe="1" enable="Y" category="poses / gestures" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="kneel_down"/>
+            <selection type="skeleton" state_id="crossed_arms"/>
+            <selection type="upper_body" state_id="crossed_arms"/>
         </action>
         <action id="xarms" name="Crossed arms 1" loop="Y" totalframe="1" enable="Y" category="poses / gestures" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
