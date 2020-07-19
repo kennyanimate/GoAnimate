@@ -4020,7 +4020,7 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="point_at"/>
         </action>
-        <action id="laugh" name="Laugh" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
+        <action id="laugh" name="Laugh 1" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_laugh"/>
             <selection type="lower_body" state_id="laugh"/>
             <selection type="skeleton" state_id="laugh"/>
