@@ -16415,6 +16415,58 @@
     <state id="msp_scoobydoositting.swf" name="sitting" enable="Y"/>
     <state id="msp_scoobydooscared.swf" name="scared" enable="Y"/>
   </prop>
+  <prop id="msp_caillou" name="Caillou Props" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_caillouleftarm.swf" enable="Y" is_premium="N" aid="1000005" money="0" sharing="0">
+    <state id="msp_caillouleftarm.swf" name="1" enable="Y" default="Y"/>
+    <state id="msp_caillouleg.swf" name="2" enable="Y"/>
+    <state id="msp_cailloulower1.swf" name="3" enable="Y"/>
+    <state id="msp_cailloulower2.swf" name="4" enable="Y"/>
+    <state id="msp_cailloulower3.swf" name="5" enable="Y"/>
+    <state id="msp_cailloulower4.swf" name="6" enable="Y"/>
+    <state id="msp_cailloulower5.swf" name="7" enable="Y"/>
+    <state id="msp_cailloulower6.swf" name="8" enable="Y"/>
+    <state id="msp_cailloulower7.swf" name="9" enable="Y"/>
+    <state id="msp_cailloulower8.swf" name="10" enable="Y"/>
+    <state id="msp_cailloulower9.swf" name="11" enable="Y"/>
+    <state id="msp_cailloulower10.swf" name="12" enable="Y"/>
+    <state id="msp_caillourightarm.swf" name="13" enable="Y"/>
+    <state id="msp_caillouupper1.swf" name="14" enable="Y"/>
+    <state id="msp_caillouupper2.swf" name="15" enable="Y"/>
+    <state id="msp_caillouupper3.swf" name="16" enable="Y"/>
+    <state id="msp_caillouupper4.swf" name="17" enable="Y"/>
+    <state id="msp_caillouupper5.swf" name="18" enable="Y"/>
+    <state id="msp_caillouupper6.swf" name="19" enable="Y"/>
+    <state id="msp_caillouupper7.swf" name="20" enable="Y"/>
+    <state id="msp_caillouupperlowerfrontview.swf" name="21" enable="Y"/>
+  </prop>
+  <prop id="msp_lily" name="Lily Props" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_caillouleftarm.swf" enable="Y" is_premium="N" aid="1000005" money="0" sharing="0">
+    <state id="msp_lilyarm.swf" name="1" enable="Y" default="Y"/>
+    <state id="msp_lilyupperlowerfrontview.swf" name="2" enable="Y"/>
+    <state id="msp_lilylower1.swf" name="3" enable="Y"/>
+    <state id="msp_lilylower2.swf" name="4" enable="Y"/>
+    <state id="msp_lilylower3.swf" name="5" enable="Y"/>
+    <state id="msp_lilyupper1.swf" name="6" enable="Y"/>
+    <state id="msp_lilyupper2.swf" name="7" enable="Y"/>
+    <state id="msp_lilyupper3.swf" name="8" enable="Y"/>
+    <state id="msp_lilyupper4.swf" name="9" enable="Y"/>
+    <state id="msp_lilyupper5.swf" name="10" enable="Y"/>
+    <state id="msp_lilyupper6.swf" name="11" enable="Y"/>
+  </prop>
+  <prop id="msp_boris" name="Boris Props" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_borisleftarm.swf" enable="Y" is_premium="N" aid="1000005" money="0" sharing="0">
+    <state id="msp_borisleg.swf" name="1" enable="Y" default="Y"/>
+    <state id="msp_borislower1.swf" name="2" enable="Y"/>
+    <state id="msp_borislower2.swf" name="3" enable="Y"/>
+    <state id="msp_borislower3.swf" name="4" enable="Y"/>
+    <state id="msp_borislower4.swf" name="5" enable="Y"/>
+    <state id="msp_borisupper1.swf" name="6" enable="Y"/>
+    <state id="msp_borisupper2.swf" name="7" enable="Y"/>
+    <state id="msp_borisupper3.swf" name="8" enable="Y"/>
+    <state id="msp_borisupper4.swf" name="9" enable="Y"/>
+    <state id="msp_borisupper5.swf" name="10" enable="Y"/>
+    <state id="msp_borisupper6.swf" name="11" enable="Y"/>
+    <state id="msp_borisupper7.swf" name="12" enable="Y"/>
+    <state id="msp_borisleftarm.swf" name="13" enable="Y"/>
+    <state id="msp_borisrightarm.swf" name="14" enable="Y"/>
+  </prop>
   <prop id="gilbert.swf" name="Gilbert Anderson" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000006" money="0" sharing="0"/>
   <prop id="mysterymachineinteriorback.swf" name="Mystery Machine Interior - Back" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000007" money="0" sharing="0"/>
   <prop id="mysterymachineinteriorfront.swf" name="Mystery Machine Interior - Front" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000008" money="0" sharing="0"/>
