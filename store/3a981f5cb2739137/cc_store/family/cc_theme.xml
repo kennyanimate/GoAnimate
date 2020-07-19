@@ -4032,7 +4032,7 @@
             <selection type="skeleton" state_id="laugh"/>
             <selection type="upper_body" state_id="laugh"/>
         </action>
-        <action id="sick" name="Sick" loop="Y" totalframe="6" enable="Y" category="daily life" is_motion="N">
+        <action id="sick" name="Sick / Stuffed" loop="Y" totalframe="6" enable="Y" category="daily life" is_motion="N">
             <selection type="facial" facial_id="head_sick"/>
             <selection type="lower_body" state_id="laugh"/>
             <selection type="skeleton" state_id="stand"/>
