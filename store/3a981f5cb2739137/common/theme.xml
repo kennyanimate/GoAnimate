@@ -16437,6 +16437,11 @@
     <state id="msp_caillouupper6.swf" name="19" enable="Y"/>
     <state id="msp_caillouupper7.swf" name="20" enable="Y"/>
     <state id="msp_caillouupperlowerfrontview.swf" name="21" enable="Y"/>
+    <state id="msp_caillouleftarm1sthalf.swf" name="22" enable="Y"/>
+    <state id="msp_caillouleftarm2ndhalf.swf" name="23" enable="Y"/>
+    <state id="msp_caillouleg1sthalf.swf" name="24" enable="Y"/>
+    <state id="msp_caillouleg2ndhalf.swf" name="25" enable="Y"/>
+    <state id="msp_cailloutorso.swf" name="26" enable="Y"/>
   </prop>
   <prop id="msp_lily" name="Lily Props" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_lilyarm.swf" enable="Y" is_premium="N" aid="1000005" money="0" sharing="0">
     <state id="msp_lilyarm.swf" name="1" enable="Y" default="Y"/>
@@ -16450,6 +16455,9 @@
     <state id="msp_lilyupper4.swf" name="9" enable="Y"/>
     <state id="msp_lilyupper5.swf" name="10" enable="Y"/>
     <state id="msp_lilyupper6.swf" name="11" enable="Y"/>
+    <state id="msp_lilyarm1sthalf.swf" name="12" enable="Y"/>
+    <state id="msp_lilyarm2ndhalf.swf" name="13" enable="Y"/>
+    <state id="msp_lilytorso.swf" name="14" enable="Y"/>
   </prop>
   <prop id="msp_boris" name="Boris Props" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_borisleftarm.swf" enable="Y" is_premium="N" aid="1000005" money="0" sharing="0">
     <state id="msp_borisleg.swf" name="1" enable="Y" default="Y"/>
@@ -16466,6 +16474,11 @@
     <state id="msp_borisupper7.swf" name="12" enable="Y"/>
     <state id="msp_borisleftarm.swf" name="13" enable="Y"/>
     <state id="msp_borisrightarm.swf" name="14" enable="Y"/>
+    <state id="msp_borisleftarm1sthalf.swf" name="15" enable="Y"/>
+    <state id="msp_borisleftarm2ndhalf.swf" name="16" enable="Y"/>
+    <state id="msp_borisleg1sthalf.swf" name="17" enable="Y"/>
+    <state id="msp_borisleg2ndhalf.swf" name="18" enable="Y"/>
+    <state id="msp_boristorso.swf" name="19" enable="Y"/>
   </prop>
   <prop id="gilbert.swf" name="Gilbert Anderson" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000006" money="0" sharing="0"/>
   <prop id="mysterymachineinteriorback.swf" name="Mystery Machine Interior - Back" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1000007" money="0" sharing="0"/>
