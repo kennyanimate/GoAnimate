@@ -3747,7 +3747,7 @@
         <action id="movelimbs" name="Move limbs 1" loop="Y" totalframe="1" enable="Y" category="dancing" is_motion="N">
             <selection type="facial" facial_id="head_happy"/>
             <selection type="lower_body" state_id="dance"/>
-            <selection type="skeleton" state_id="walk"/>
+            <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="walk"/>
         </action>
         <action id="movelimbs2" name="Move limbs 2" loop="Y" totalframe="1" enable="Y" category="dancing" is_motion="N">
@@ -4038,12 +4038,6 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="laugh"/>
         </action>
-        <action id="stuffed" name="Stuffed" loop="Y" totalframe="6" enable="Y" category="daily life" is_motion="N">
-            <selection type="facial" facial_id="head_sick"/>
-            <selection type="lower_body" state_id="laugh"/>
-            <selection type="skeleton" state_id="stand"/>
-            <selection type="upper_body" state_id="laugh"/>
-        </action>
         <action id="sad" name="Sad" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_sad"/>
             <selection type="lower_body" state_id="default"/>
@@ -4098,7 +4092,13 @@
             <selection type="skeleton" state_id="lie_down"/>
             <selection type="upper_body" state_id="excited"/>
         </action>
-        <action id="movelegs" name="Move legs" loop="Y" totalframe="60" enable="Y" category="dancing" is_motion="N">
+        <action id="movelegs" name="Move legs 1" loop="Y" totalframe="60" enable="Y" category="dancing" is_motion="N">
+            <selection type="facial" facial_id="head_happy"/>
+            <selection type="lower_body" state_id="dance"/>
+            <selection type="skeleton" state_id="walk"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
+        <action id="movelegs2" name="Move legs 2" loop="Y" totalframe="60" enable="Y" category="dancing" is_motion="N">
             <selection type="facial" facial_id="head_happy"/>
             <selection type="lower_body" state_id="dance"/>
             <selection type="skeleton" state_id="walk"/>
