@@ -2226,6 +2226,9 @@
         <component type="upper_body" id="adam_018" path="adam_018" name="adam_018" thumb="thumbnail.swf" display_order="175" money="0" sharing="0" enable="Y">
             <state id="default" filename="default.swf"/>
         </component>
+        <component type="upper_body" id="adam_019" path="adam_019" name="adam_019" thumb="thumbnail.swf" display_order="177" money="0" sharing="0" enable="Y">
+            <state id="default" filename="default.swf"/>
+        </component>
         <component type="upper_body" id="adam_a006" path="adam_a006" name="adam_a006" thumb="thumbnail.swf" display_order="180" money="0" sharing="0" enable="Y">
             <state id="chuckle" filename="chuckle.swf"/>
             <state id="crossed_arms" filename="crossed_arms.swf"/>
