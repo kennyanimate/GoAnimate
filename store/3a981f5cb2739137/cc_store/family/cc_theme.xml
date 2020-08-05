@@ -1702,6 +1702,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -1721,6 +1722,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -1740,6 +1742,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -1990,6 +1993,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2009,6 +2013,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2028,6 +2033,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2047,6 +2053,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2066,6 +2073,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2085,6 +2093,8 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2123,6 +2133,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2142,6 +2153,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2161,6 +2173,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2180,6 +2193,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2199,6 +2213,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2218,6 +2233,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2237,6 +2253,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2256,6 +2273,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2275,6 +2293,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2294,6 +2313,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2313,6 +2333,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2332,6 +2353,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2351,6 +2373,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2370,6 +2393,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2389,6 +2413,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
@@ -2408,6 +2433,7 @@
             <state id="laugh" filename="laugh.swf"/>
             <state id="lie_down" filename="lie_down.swf"/>
             <state id="point_at" filename="point_at.swf"/>
+            <state id="readytofight" filename="readytofight.swf"/>
             <state id="run" filename="run.swf"/>
             <state id="sad" filename="sad.swf"/>
             <state id="sit" filename="sit.swf"/>
